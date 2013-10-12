@@ -1,7 +1,63 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <string name="app_name">Tae Kwon Do Blackbelt Book</string>
     <string name="title_page_detail">Page Detail</string>
+    
+    <!-- Basic Terms -->
+    <string-array name="attention">
+        <item>Attention</item>
+        <item>Charyut</item>
+    </string-array>
+    
+    <string-array name="ready_stance">
+        <item>Ready Stance</item>
+        <item>Jhoon Bi</item>
+    </string-array>
+    
+    <string-array name="begin_start">
+        <item>Begin/Start</item>
+        <item>She-Jak</item>
+    </string-array>
+    
+    <string-array name="belt">
+        <item>Belt</item>
+        <item>Dhee</item>
+    </string-array>
+    
+    <string-array name="concentration">
+        <item>Concentration</item>
+        <item></item>
+    </string-array>
+    
+    <!-- Button Strings -->
+    <string name="add_create">+</string>
+    <string name="edit">Edit</string>
+    <string name="remove_delete">-</string>
+    
+    <!-- Menu Items -->
+    <string name="physical_fitness">Physical Fitness</string>
+    <string name="food_journal">Food Journal</string>
+    <string name="weekly_journal">Weekly Journal</string>
+    <string name="creative_form">Creative Form</string>
+    <string name="class_assisting">Class Assisting</string>
+    <string name="writing_checklist">Writing Checklist</string>
+    <string name="testing_checklist">Testing Checklist</string>
+    <string name="important_dates">Important Dates</string>
+    <string name="notes">Notes</string>
+    
+    <!-- Physical Fitness -->
+    <string name="push_ups">Push Ups</string>
+    <string name="sit_ups">Sit Ups</string>
+    <string name="jump_rope">Jump Rope</string>
+    <string name="stretching">Stretching</string>
+    <string name="endurance">Endurance</string>
+    <string name="basic_punches">Basic Punches</string>
+    <string name="basic_blocks">Basic Blocks</string>
+    <string name="knee_highs">Knee Highs</string>
+    <string name="squats">Squats</string>
+    <string name="forms">Forms</string>
+    <string name="creative_self_defense">Creative Self Defense</string>
+    <string name="creative_breaks">Creative Breaks</string>
 
 </resources>

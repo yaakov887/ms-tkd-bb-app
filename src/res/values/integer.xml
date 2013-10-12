@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <integer name="push_up_minimum">3000</integer>
+    <integer name="sit_up_minimum">3000</integer>
+    <integer name="jump_rope_minimum">8400</integer>
+    <integer name="stretch_minimum">800</integer>
+    <integer name="basic_block_minimum">8400</integer>
+    <integer name="knee_high_minimum">8400</integer>
+    <integer name="endurance_minimum">50</integer>
+    <integer name="basic_punches_minimum">10000</integer>
+    <integer name="squat_minimum">2000</integer>
+    <integer name="form_minimum">672</integer>
+    <integer name="creative_self_defense_minimum">750</integer>
+    <integer name="creative_breaks_min">2</integer>
+    
+    <integer name="class_assist_minimum">8</integer>
+    
+</resources>

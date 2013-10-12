@@ -8,15 +8,87 @@
 package tkd.blackbelt.track;
 
 public final class R {
+    public static final class array {
+        /**  Basic Terms 
+         */
+        public static final int attention=0x7f060000;
+        public static final int begin_start=0x7f060002;
+        public static final int belt=0x7f060003;
+        public static final int concentration=0x7f060004;
+        public static final int ready_stance=0x7f060001;
+    }
     public static final class attr {
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int page_detail=0x7f060002;
-        public static final int page_detail_container=0x7f060000;
-        public static final int page_list=0x7f060001;
+        public static final int basic_blocks_add=0x7f08001d;
+        public static final int basic_blocks_ct=0x7f08001c;
+        public static final int basic_blocks_row=0x7f08001a;
+        public static final int basic_blocks_text=0x7f08001b;
+        public static final int basic_punches_add=0x7f080019;
+        public static final int basic_punches_ct=0x7f080018;
+        public static final int basic_punches_row=0x7f080016;
+        public static final int basic_punches_text=0x7f080017;
+        public static final int creative_break_add=0x7f080031;
+        public static final int creative_break_ct=0x7f080030;
+        public static final int creative_break_row=0x7f08002e;
+        public static final int creative_break_text=0x7f08002f;
+        public static final int creative_self_defense_add=0x7f08002d;
+        public static final int creative_self_defense_ct=0x7f08002c;
+        public static final int creative_self_defense_row=0x7f08002a;
+        public static final int creative_self_defense_text=0x7f08002b;
+        public static final int endurance_add=0x7f080015;
+        public static final int endurance_ct=0x7f080014;
+        public static final int endurance_row=0x7f080012;
+        public static final int endurance_text=0x7f080013;
+        public static final int form_add=0x7f080029;
+        public static final int form_ct=0x7f080028;
+        public static final int form_row=0x7f080026;
+        public static final int form_text=0x7f080027;
+        public static final int jump_rope_add=0x7f08000d;
+        public static final int jump_rope_ct=0x7f08000c;
+        public static final int jump_rope_row=0x7f08000a;
+        public static final int jump_rope_text=0x7f08000b;
+        public static final int knee_high_add=0x7f080021;
+        public static final int knee_high_ct=0x7f080020;
+        public static final int knee_high_row=0x7f08001e;
+        public static final int knee_high_text=0x7f08001f;
+        public static final int page_detail=0x7f080032;
+        public static final int page_detail_container=0x7f080000;
+        public static final int page_list=0x7f080001;
+        public static final int push_up_add=0x7f080009;
+        public static final int push_up_ct=0x7f080008;
+        public static final int push_up_row=0x7f080006;
+        public static final int push_ups_text=0x7f080007;
+        public static final int sit_up_add=0x7f080005;
+        public static final int sit_up_ct=0x7f080004;
+        public static final int sit_up_row=0x7f080002;
+        public static final int sit_ups_text=0x7f080003;
+        public static final int sqat_ct=0x7f080024;
+        public static final int squat_add=0x7f080025;
+        public static final int squat_row=0x7f080022;
+        public static final int squat_text=0x7f080023;
+        public static final int stretch_add=0x7f080011;
+        public static final int stretch_ct=0x7f080010;
+        public static final int stretch_row=0x7f08000e;
+        public static final int stretch_text=0x7f08000f;
+    }
+    public static final class integer {
+        public static final int basic_block_minimum=0x7f040004;
+        public static final int basic_punches_minimum=0x7f040007;
+        public static final int class_assist_minimum=0x7f04000c;
+        public static final int creative_breaks_min=0x7f04000b;
+        public static final int creative_self_defense_minimum=0x7f04000a;
+        public static final int endurance_minimum=0x7f040006;
+        public static final int form_minimum=0x7f040009;
+        public static final int jump_rope_minimum=0x7f040002;
+        public static final int knee_high_minimum=0x7f040005;
+        public static final int push_up_minimum=0x7f040000;
+        public static final int sit_up_minimum=0x7f040001;
+        public static final int squat_minimum=0x7f040008;
+        public static final int stretch_minimum=0x7f040003;
     }
     public static final class layout {
         public static final int activity_page_detail=0x7f030000;
@@ -37,11 +109,43 @@ public final class R {
          */
         public static final int activity_page_list=0x7f030001;
         public static final int activity_page_twopane=0x7f030002;
-        public static final int fragment_page_detail=0x7f030003;
+        public static final int exercise_list_fragment=0x7f030003;
+        public static final int fitness_list_fragment=0x7f030004;
+        public static final int fragment_page_detail=0x7f030005;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int title_page_detail=0x7f040001;
+        /**  Button Strings 
+         */
+        public static final int add_create=0x7f050002;
+        public static final int app_name=0x7f050000;
+        public static final int basic_blocks=0x7f050014;
+        public static final int basic_punches=0x7f050013;
+        public static final int class_assisting=0x7f050009;
+        public static final int creative_breaks=0x7f050019;
+        public static final int creative_form=0x7f050008;
+        public static final int creative_self_defense=0x7f050018;
+        public static final int edit=0x7f050003;
+        public static final int endurance=0x7f050012;
+        public static final int food_journal=0x7f050006;
+        public static final int forms=0x7f050017;
+        public static final int important_dates=0x7f05000c;
+        public static final int jump_rope=0x7f050010;
+        public static final int knee_highs=0x7f050015;
+        public static final int notes=0x7f05000d;
+        /**  Menu Items 
+         */
+        public static final int physical_fitness=0x7f050005;
+        /**  Physical Fitness 
+         */
+        public static final int push_ups=0x7f05000e;
+        public static final int remove_delete=0x7f050004;
+        public static final int sit_ups=0x7f05000f;
+        public static final int squats=0x7f050016;
+        public static final int stretching=0x7f050011;
+        public static final int testing_checklist=0x7f05000b;
+        public static final int title_page_detail=0x7f050001;
+        public static final int weekly_journal=0x7f050007;
+        public static final int writing_checklist=0x7f05000a;
     }
     public static final class style {
         /** 
@@ -65,10 +169,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f070001;
     }
 }
