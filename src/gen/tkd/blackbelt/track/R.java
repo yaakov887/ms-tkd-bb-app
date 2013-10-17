@@ -39,15 +39,20 @@ public final class R {
         public static final int creative_self_defense_ct=0x7f080031;
         public static final int creative_self_defense_row=0x7f08002f;
         public static final int creative_self_defense_text=0x7f080030;
+        public static final int day_to_day_exercise_list=0x7f080006;
+        public static final int edit_meal_item_button=0x7f08003e;
         public static final int endurance_add=0x7f08001a;
         public static final int endurance_ct=0x7f080019;
         public static final int endurance_row=0x7f080017;
         public static final int endurance_text=0x7f080018;
+        public static final int entry_day_input=0x7f080038;
         public static final int exercise_completed_text=0x7f080005;
+        public static final int exercise_goal_count=0x7f080004;
         public static final int form_add=0x7f08002e;
         public static final int form_ct=0x7f08002d;
         public static final int form_row=0x7f08002b;
         public static final int form_text=0x7f08002c;
+        public static final int journal_entry_list=0x7f08003a;
         public static final int jump_rope_add=0x7f080012;
         public static final int jump_rope_ct=0x7f080011;
         public static final int jump_rope_row=0x7f08000f;
@@ -56,10 +61,14 @@ public final class R {
         public static final int knee_high_ct=0x7f080025;
         public static final int knee_high_row=0x7f080023;
         public static final int knee_high_text=0x7f080024;
-        public static final int listView1=0x7f080006;
-        public static final int page_detail=0x7f080037;
+        public static final int meal_id_text=0x7f08003c;
+        public static final int meal_item_text=0x7f08003d;
+        public static final int next_day_button=0x7f080039;
+        public static final int out_of_text=0x7f080003;
+        public static final int page_detail=0x7f08003b;
         public static final int page_detail_container=0x7f080000;
         public static final int page_list=0x7f080001;
+        public static final int previous_day_button=0x7f080037;
         public static final int push_up_add=0x7f08000e;
         public static final int push_up_ct=0x7f08000d;
         public static final int push_up_row=0x7f08000b;
@@ -76,9 +85,7 @@ public final class R {
         public static final int stretch_ct=0x7f080015;
         public static final int stretch_row=0x7f080013;
         public static final int stretch_text=0x7f080014;
-        public static final int textView1=0x7f080002;
-        public static final int textView2=0x7f080003;
-        public static final int textView3=0x7f080004;
+        public static final int total_count_text=0x7f080002;
     }
     public static final class integer {
         public static final int basic_block_minimum=0x7f040004;
@@ -116,16 +123,23 @@ public final class R {
         public static final int activity_page_twopane=0x7f030002;
         public static final int exercise_list_fragment=0x7f030003;
         public static final int fitness_list_fragment=0x7f030004;
-        public static final int fragment_page_detail=0x7f030005;
+        public static final int food_journal_entry=0x7f030005;
+        public static final int fragment_page_detail=0x7f030006;
+        public static final int meal_group=0x7f030007;
+        public static final int meal_item=0x7f030008;
     }
     public static final class string {
         /**  Button Strings 
          */
         public static final int add_create=0x7f050002;
         public static final int app_name=0x7f050000;
+        public static final int backslash=0x7f05001b;
         public static final int basic_blocks=0x7f050014;
         public static final int basic_punches=0x7f050013;
         public static final int class_assisting=0x7f050009;
+        /**  Phrase Completion Strings 
+         */
+        public static final int completed=0x7f05001a;
         public static final int creative_breaks=0x7f050019;
         public static final int creative_form=0x7f050008;
         public static final int creative_self_defense=0x7f050018;

@@ -12,7 +12,7 @@
         android:orientation="horizontal" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/total_count_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10000"
@@ -20,14 +20,14 @@
             android:textSize="70sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/out_of_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="/"
+            android:text="@string/backslash"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         	<TextView
-            android:id="@+id/textView3"
+            android:id="@+id/exercise_goal_count"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="10000"
@@ -39,10 +39,10 @@
             android:id="@+id/exercise_completed_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sit Ups Completed"
+            android:text="@string/completed"
             android:textAppearance="?android:attr/textAppearanceMedium" />
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/day_to_day_exercise_list"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" >
     </ListView>

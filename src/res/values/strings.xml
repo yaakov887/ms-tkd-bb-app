@@ -59,5 +59,8 @@
     <string name="forms">Forms</string>
     <string name="creative_self_defense">Creative Self Defense</string>
     <string name="creative_breaks">Creative Breaks</string>
-
+    
+    <!-- Phrase Completion Strings -->
+	<string name="completed">Completed</string>
+	<string name="backslash">/</string>
 </resources>

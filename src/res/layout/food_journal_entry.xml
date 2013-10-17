@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" 
+    	android:gravity="center" >
+
+        <ImageButton
+            android:id="@+id/previous_day_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_minus" />
+    	
+    	<EditText
+      		android:id="@+id/entry_day_input"
+      	  	android:layout_width="75dip"
+      	  	android:layout_height="wrap_content"
+      	  	android:ems="10"
+      	  	android:inputType="number" />
+
+    	<ImageButton
+    	    android:id="@+id/next_day_button"
+            style="?android:attr/borderlessButtonStyle"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:src="@android:drawable/btn_plus" />
+
+	</LinearLayout>
+	
+    <ExpandableListView
+            android:id="@+id/journal_entry_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1" >
+        </ExpandableListView>
+</LinearLayout>

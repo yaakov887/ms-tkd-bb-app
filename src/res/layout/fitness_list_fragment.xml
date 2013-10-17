@@ -24,14 +24,14 @@
                 android:padding="3dip"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
                 android:id="@+id/sit_up_add"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
                 android:layout_gravity="right"
                 android:padding="3dip"
-                android:text="@string/add_create"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:src="@android:drawable/ic_input_add" />
         
     </TableRow>
     
@@ -55,14 +55,14 @@
                 android:padding="3dip"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
                 android:id="@+id/push_up_add"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="right"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
                 android:padding="3dip"
-                android:text="@string/add_create"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:src="@android:drawable/ic_input_add" />
         
     </TableRow>
     
@@ -86,14 +86,14 @@
                 android:padding="3dip"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
                 android:id="@+id/jump_rope_add"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="right"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
                 android:padding="3dip"
-                android:text="@string/add_create"
-                android:textAppearance="?android:attr/textAppearanceLarge" />
+                android:src="@android:drawable/ic_input_add" />
         
     </TableRow>
     
@@ -119,14 +119,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/stretch_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -151,14 +151,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/endurance_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+           style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -183,14 +183,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/basic_punches_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -215,14 +215,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/basic_blocks_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+           style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -247,14 +247,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/knee_high_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -279,14 +279,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/squat_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -311,14 +311,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/form_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -343,14 +343,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/creative_self_defense_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
     <TableRow
@@ -375,14 +375,14 @@
             android:padding="3dip"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
-        <TextView
+        <ImageButton
             android:id="@+id/creative_break_add"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="right"
-            android:padding="3dip"
-            android:text="@string/add_create"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            style="?android:attr/borderlessButtonStyle"
+                android:layout_width="30dip"
+                android:layout_height="30dip"
+                android:layout_gravity="right"
+                android:padding="3dip"
+                android:src="@android:drawable/ic_input_add" />
     </TableRow>
 
 </TableLayout>
