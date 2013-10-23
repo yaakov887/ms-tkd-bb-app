@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center" >
+        <ImageButton
+            android:id="@+id/previous_week_button"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/btn_minus" 
+            android:contentDescription="Previous Week"/>
+    	<EditText
+      		android:id="@+id/entry_week_input"
+      	  	android:layout_width="75dip"
+      	  	android:layout_height="wrap_content"
+      	  	android:ems="10"
+      	  	android:inputType="number" />
+    	<ImageButton
+    	    android:id="@+id/next_week_button"
+            style="?android:attr/borderlessButtonStyle"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:src="@android:drawable/btn_plus" 
+    	    android:contentDescription="Next Week"/>
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/paragraph_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+    </ScrollView>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" 
+            android:gravity="center">
+    	<EditText
+        	android:id="@+id/paragraph_entry"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:ems="10"
+        	android:inputType="textMultiLine" >
+
+        	<requestFocus />
+    	</EditText>
+    	<Button
+    	    android:id="@+id/done_button"
+    	    style="?android:attr/buttonStyleSmall"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="Done" />
+	</LinearLayout>
+</LinearLayout>

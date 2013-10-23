@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/total_count_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="70sp" />
+
+        <TextView
+            android:id="@+id/out_of_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/backslash"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/exercise_goal_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    	    	
+    </LinearLayout>
+    
+	<TextView
+            android:id="@+id/exercise_completed_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <TableRow
+	        android:id="@+id/class_one"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/class_two"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/class_three"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+
+	    <TableRow
+	        android:id="@+id/class_four"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/class_five"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/class_six"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/class_seven"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+	    
+	    <TableRow
+	        android:id="@+id/class_eight"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        <CheckBox
+	            android:id="@+id/class_completed"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content" />
+	        <EditText
+	            android:id="@+id/class_date"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="date" />
+	        <EditText
+	            android:id="@+id/instructor_name"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:ems="10"
+	            android:inputType="textPersonName" />
+	    </TableRow>
+	</TableLayout>
+
+</LinearLayout>

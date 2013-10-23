@@ -62,5 +62,6 @@
     
     <!-- Phrase Completion Strings -->
 	<string name="completed">Completed</string>
+	<string name="classes">Classes</string>
 	<string name="backslash">/</string>
 </resources>

@@ -15,7 +15,8 @@
             style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@android:drawable/btn_minus" />
+            android:src="@android:drawable/btn_minus" 
+            android:contentDescription="Previous Day"/>
     	
     	<EditText
       		android:id="@+id/entry_day_input"
@@ -29,14 +30,14 @@
             style="?android:attr/borderlessButtonStyle"
     	    android:layout_width="wrap_content"
     	    android:layout_height="wrap_content"
-    	    android:src="@android:drawable/btn_plus" />
+    	    android:src="@android:drawable/btn_plus" 
+    	    android:contentDescription="Next Day"/>
 
 	</LinearLayout>
-	
     <ExpandableListView
             android:id="@+id/journal_entry_list"
             android:layout_width="match_parent"
             android:layout_height="0dip"
             android:layout_weight="1" >
-        </ExpandableListView>
+    </ExpandableListView>
 </LinearLayout>
