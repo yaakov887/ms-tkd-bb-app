@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:shrinkColumns="1">
+
+    <TableRow
+        android:id="@+id/fasting_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/fasting_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/fasting_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+
+        <TwoLineListItem
+            android:id="@+id/fasting_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/healthy_habits_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/healthy_habits_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+		<ImageView
+            android:id="@+id/healthy_habits_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+
+        <TwoLineListItem
+            android:id="@+id/healthy_habits_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/perseverance_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/perseverance_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/perseverance_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/perseverance_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/thank_you_note_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/thank_you_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/thank_you_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/thank_you_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/respect_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/respect_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/respect_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/respect_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/righting_wrongs_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/righting_wrongs_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/righting_wrongs_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/righting_wrongs_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+</TableLayout>

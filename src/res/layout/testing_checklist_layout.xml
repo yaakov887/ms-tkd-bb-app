@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:shrinkColumns="1">
+
+    <TableRow
+        android:id="@+id/recommendation_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/recommendation_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/recommendation_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+
+        <TwoLineListItem
+            android:id="@+id/recommendation_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/digital_pic_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/digital_pic_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        
+		<ImageView
+            android:id="@+id/digital_pic_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+
+        <TwoLineListItem
+            android:id="@+id/digital_pic_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/bb_project_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/bb_project_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/bb_project_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/bb_project_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/essay_one_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/essay_one_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/essay_one_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/essay_one_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/essay_two_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/essay_two_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/essay_two_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/essay_two_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/testing_fees_row"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical" >
+
+        <CheckBox
+            android:id="@+id/testing_fees_check_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@+id/testing_fees_divider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@android:drawable/divider_horizontal_dark" />
+        
+        <TwoLineListItem
+            android:id="@+id/testing_fees_title_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </TableRow>
+
+</TableLayout>

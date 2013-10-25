@@ -44,24 +44,25 @@
 
 	<TableLayout
 	    android:layout_width="match_parent"
-	    android:layout_height="wrap_content" >
+	    android:layout_height="wrap_content" 
+	    android:shrinkColumns="1">
 
 	    <TableRow
 	        android:id="@+id/class_one"
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_one_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_one_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
-	            android:ems="10"
-	            android:inputType="date" />
+	            android:ems="10" 
+	            android:inputType="date"/>
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_one_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -73,17 +74,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_two_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_two_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_two_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -95,17 +96,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_three_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_three_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_three_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -117,17 +118,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_four_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_four_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_four_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -139,17 +140,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_five_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_five_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_five_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -161,17 +162,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_six_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_six_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_six_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -183,17 +184,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_seven_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_seven_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_seven_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
@@ -205,17 +206,17 @@
 	        android:layout_width="match_parent"
 	        android:layout_height="wrap_content" >
 	        <CheckBox
-	            android:id="@+id/class_completed"
+	            android:id="@+id/class_eight_completed"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content" />
 	        <EditText
-	            android:id="@+id/class_date"
+	            android:id="@+id/class_eight_date"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"
 	            android:inputType="date" />
 	        <EditText
-	            android:id="@+id/instructor_name"
+	            android:id="@+id/instructor_eight_name"
 	            android:layout_width="wrap_content"
 	            android:layout_height="wrap_content"
 	            android:ems="10"

@@ -60,6 +60,22 @@
     <string name="creative_self_defense">Creative Self Defense</string>
     <string name="creative_breaks">Creative Breaks</string>
     
+    <!-- Writing Checklist -->
+    <string name="fasting">Fasting</string>
+    <string name="healthy_habits">Healthy Habits</string>
+    <string name="perseverance">Perseverance</string>
+    <string name="thank_you_note">Thank You Note</string>
+    <string name="respect">Respect</string>
+    <string name="righting_wrongs">Righting Wrongs &amp; Mending Relationships</string>
+    
+    <!-- Testing Checklist -->
+    <string name="letter_of_recommendation">Letter of Recommendation</string>
+    <string name="digital_picture">Digital Picture/Photo</string>
+    <string name="bb_project_complete">Black Belt Project Complete</string>
+    <string name="essay_1_complete">Essay 1 Complete</string>
+    <string name="essay_2_complete">Essay 2 Complete</string>
+    <string name="testing_fees_paid">Testing Fees Paid</string>
+    
     <!-- Phrase Completion Strings -->
 	<string name="completed">Completed</string>
 	<string name="classes">Classes</string>
