@@ -76,6 +76,13 @@
     <string name="essay_2_complete">Essay 2 Complete</string>
     <string name="testing_fees_paid">Testing Fees Paid</string>
     
+    <!-- Date List -->
+    <string name="prequal_date">Pre-qualification Date</string>
+    <string name="rehearsal_date">Rehearsal Date</string>
+    <string name="part_one_test_date">Part 1 Test Date</string>
+    <string name="part_two_test_date">Part 2 Test Date</string>
+    <string name="book_completion_date">Book Completion Date</string>
+    
     <!-- Phrase Completion Strings -->
 	<string name="completed">Completed</string>
 	<string name="classes">Classes</string>
