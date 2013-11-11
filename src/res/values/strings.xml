@@ -83,6 +83,9 @@
     <string name="part_two_test_date">Part 2 Test Date</string>
     <string name="book_completion_date">Book Completion Date</string>
     
+    <!-- Meal Strings -->
+    <string name="add_food">Add Food Item</string>
+    
     <!-- Phrase Completion Strings -->
 	<string name="completed">Completed</string>
 	<string name="classes">Classes</string>
