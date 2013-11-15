@@ -1,4 +1,4 @@
-package tkd.blackbelt;
+package tkd.blackbelt.track;
 
 import android.content.Context;
 import android.graphics.Typeface;
@@ -9,43 +9,24 @@ import android.view.ViewGroup;
 import android.widget.BaseExpandableListAdapter;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import java.util.List;
 
+import tkd.blackbelt.MealsEntry;
 import tkd.blackbelt.track.R;
 
 public class ExpandableMealView extends BaseExpandableListAdapter {
 
-	public enum Meals {Breakfast, Lunch, Dinner, SnackOne, SnackTwo};
+	private Context 	context;
+	private MealsEntry 	mealsEntry;
 	
-	private final Meals[] mealValues = Meals.values();
-	
-	private Context context;
-	private List<String> breakfast;
-	private List<String> lunch;
-	private List<String> dinner;
-	private List<String> snack_1;
-	private List<String> snack_2;
-	
-	public ExpandableMealView(Context context) {
+	public ExpandableMealView(Context context, MealsEntry meals) {
         this.context = context;
+        this.mealsEntry = meals;
     }
 
 	@Override
 	public Object getChild(int groupPosition, int childPosition) {
-		switch (mealValues[groupPosition]){
-			case Breakfast:
-				return breakfast.get(childPosition);
-			case Lunch:
-				return lunch.get(childPosition);
-			case Dinner:
-				return dinner.get(childPosition);
-			case SnackOne:
-				return snack_1.get(childPosition);
-			case SnackTwo:
-				return snack_2.get(childPosition);
-			default:
-				return null;
-		}
+		MealsEntry.Meals meal = MealsEntry.MealValues[groupPosition];
+		return mealsEntry.getFoodFromMeal(meal, childPosition);
 	}
 
 	@Override
@@ -74,6 +55,8 @@ public class ExpandableMealView extends BaseExpandableListAdapter {
         	mealItem.setTypeface(null, Typeface.ITALIC);
         	mealItem.setText(R.string.add_food);
         	mealItem.setEllipsize(TruncateAt.END);
+        	
+        	mealEdit.setImageResource(R.drawable.ic_add);
         }
         else {
         	mealItem.setTypeface(null, Typeface.BOLD);
@@ -85,43 +68,19 @@ public class ExpandableMealView extends BaseExpandableListAdapter {
 
 	@Override
 	public int getChildrenCount(int groupPosition) {
-		switch (mealValues[groupPosition]){
-			case Breakfast:
-				return breakfast.size() + 1;
-			case Lunch:
-				return lunch.size() + 1;
-			case Dinner:
-				return dinner.size() + 1;
-			case SnackOne:
-				return snack_1.size() + 1;
-			case SnackTwo:
-				return snack_2.size() + 1;
-			default:
-				return 1;
-		}
+		MealsEntry.Meals meal = MealsEntry.MealValues[groupPosition];
+		return mealsEntry.getMealCount(meal);
 	}
 
 	@Override
 	public Object getGroup(int groupPosition) {
-		switch (mealValues[groupPosition]){
-			case Breakfast:
-				return Meals.Breakfast.name();
-			case Lunch:
-				return Meals.Lunch.name();
-			case Dinner:
-				return Meals.Dinner.name();
-			case SnackOne:
-				return Meals.SnackOne.name();
-			case SnackTwo:
-				return Meals.SnackTwo.name();
-			default:
-				return null;
-		}
+		MealsEntry.Meals meal = MealsEntry.MealValues[groupPosition];
+		return meal.name();
 	}
 
 	@Override
 	public int getGroupCount() {
-		return mealValues.length;
+		return MealsEntry.MealValues.length;
 	}
 
 	@Override
