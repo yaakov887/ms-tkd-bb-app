@@ -1,8 +1,9 @@
 package tkd.blackbelt;
 
 import java.util.ArrayList;
+import java.lang.Comparable;
 
-public class MealsEntry {
+public class MealsEntry implements Comparable<MealsEntry> {
 
 	public enum Meals 			{Breakfast, Lunch, Dinner, SnackOne, SnackTwo};
 	public static final Meals[] MealValues = Meals.values();
@@ -113,5 +114,10 @@ public class MealsEntry {
 	
 	public int getDay () {
 		return entryDay;
+	}
+
+	@Override
+	public int compareTo(MealsEntry another) {
+		return this.entryDay - another.entryDay;
 	}
 }
