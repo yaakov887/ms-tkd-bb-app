@@ -18,15 +18,15 @@ import android.util.Xml;
 public class MealXMLParserSerializer {
 	
 	private MealsJournal journal;
-	private String JOURNAL_TAG		= "meal_journal";
-	private String DAY_TAG			= "day";
-	private String NUMBER_ATTR		= "number";
-	private String BREAKFAST_TAG 	= "breakfast";
-	private String LUNCH_TAG		= "lunch";
-	private String DINNER_TAG		= "dinner";
-	private String SNACK_ONE_TAG	= "snack_1";
-	private String SNACK_TWO_TAG	= "snack_2";
-	private String FOOD_TAG			= "food";
+	private final String JOURNAL_TAG		= "meal_journal";
+	private final String DAY_TAG			= "day";
+	private final String NUMBER_ATTR		= "number";
+	private final String BREAKFAST_TAG 		= "breakfast";
+	private final String LUNCH_TAG			= "lunch";
+	private final String DINNER_TAG			= "dinner";
+	private final String SNACK_ONE_TAG		= "snack_1";
+	private final String SNACK_TWO_TAG		= "snack_2";
+	private final String FOOD_TAG			= "food";
 	
 	/**********************************************************************************************
 	 * Constructor

@@ -120,4 +120,34 @@ public class MealsEntry implements Comparable<MealsEntry> {
 	public int compareTo(MealsEntry another) {
 		return this.entryDay - another.entryDay;
 	}
+	
+	public void setFoodInMeal (Meals meal, int index, String food) {
+		
+		if (index >= getMealCount(meal)) {
+			addFoodToMeal (meal, food);
+			return;
+		}
+		else {
+			switch (meal) {
+			case Breakfast:
+				breakfast.add(index, food);
+				return;
+			case Lunch:
+				lunch.add(index, food);
+				return;
+			case Dinner:
+				dinner.add(index, food);
+				return;
+			case SnackOne:
+				snackOne.add(index, food);
+				return;
+			case SnackTwo:
+				snackTwo.add(index, food);
+				return;
+			default:
+				return;
+			}
+		}
+		
+	}
 }
