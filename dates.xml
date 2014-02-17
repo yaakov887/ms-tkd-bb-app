@@ -1,0 +1,20 @@
+<dates>
+	<prequalification>
+		<start	date=""/>
+		<end	date=""/>
+	</prequalification>
+	<rehearsal>
+		<start	date=""/>
+	</rehearsal>
+	<part_one>
+		<start	date=""	time=""/>
+		<end	time=""/>
+	</part_one>
+	<part_two>
+		<start	date=""	time=""/>
+		<end	time=""/>
+	</part_two>
+	<complete_book>
+		<end	date=""/>
+	</complete_book>
+</dates>

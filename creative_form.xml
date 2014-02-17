@@ -1,0 +1,14 @@
+<creative_form>
+	<step number="1">
+		<stance></stance>
+		<direction></direction>
+		<hand_technique></hand_technique>
+		<foot_technique></foot_technique>
+	</step>
+	<step number="2">
+		<stance></stance>
+		<direction></direction>
+		<hand_technique></hand_technique>
+		<foot_technique></foot_technique>
+	</step>
+</creative_form>
