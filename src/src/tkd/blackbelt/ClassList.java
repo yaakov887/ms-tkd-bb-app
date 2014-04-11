@@ -7,13 +7,13 @@ import java.util.Iterator;
 public class ClassList {
 	
 	private ArrayList<LeadershipClass> list = null;
-	private ClassList classes = null;
+	private static ClassList classes = null;
 	
 	private ClassList () {
 		list = new ArrayList<LeadershipClass> ();
 	}
 	
-	public ClassList getClassList () {
+	public static ClassList getClassList () {
 		if (classes == null) {
 			classes = new ClassList ();
 		}

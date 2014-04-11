@@ -36,7 +36,12 @@ public class LeadershipClass implements Comparable<LeadershipClass> {
 	
 	@Override
 	public int compareTo(LeadershipClass another) {
-		return date.compareTo(another.date);
+		int comp = date.compareTo(another.date);
+		
+		if (comp == 0) {
+			return instructor.compareTo(another.instructor);
+		}
+		return comp;
 	}
 	
 	

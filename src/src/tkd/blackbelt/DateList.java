@@ -4,13 +4,13 @@ import tkd.blackbelt.ImportantDate.Dates;
 
 public class DateList {
 	private ImportantDate[] dates;
-	private DateList datelist = null;
+	private static DateList datelist = null;
 	
 	private DateList () {
 		dates = new ImportantDate[Dates.size];
 	}
 	
-	public DateList getDateList () {
+	public static DateList getDateList () {
 		if (datelist == null) {
 			datelist = new DateList ();
 		}

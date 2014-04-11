@@ -52,8 +52,7 @@ public class FitnessFragment extends Fragment {
 	    public void onClick(View v) {
 	      int id = v.getId();
 	      String name = "bb.project.space.R";
-	      Intent intent = new Intent(FitnessFragment.this, 
-	    		  					 ExerciseListActivity.class);
+	      Intent intent = new Intent();
 
 	      switch(id)
 	      {
