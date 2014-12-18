@@ -3,8 +3,18 @@ package tkd.blackbelt;
 import java.util.ArrayList;
 import java.lang.Comparable;
 
+/**
+ * 
+ * @author jacoberg2
+ *
+ */
 public class MealsEntry implements Comparable<MealsEntry> {
 
+	/**
+	 * 
+	 * @author jacoberg2
+	 *
+	 */
 	public enum Meals 			{Breakfast, Lunch, Dinner, SnackOne, SnackTwo};
 	public static final Meals[] MealValues = Meals.values();
 	
@@ -17,6 +27,9 @@ public class MealsEntry implements Comparable<MealsEntry> {
 	private ArrayList<String> 	snackOne;
 	private ArrayList<String> 	snackTwo;
 	
+	/**
+	 * 
+	 */
 	public MealsEntry () {
 		entryDay 	= nextEntryDay;
 		breakfast 	= new ArrayList<String>();
@@ -27,6 +40,15 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		++nextEntryDay;
 	}
 	
+	/**
+	 * 
+	 * @param bfast
+	 * @param lnch
+	 * @param dnr
+	 * @param sn1
+	 * @param sn2
+	 */
+	@SuppressWarnings("unchecked")
 	public MealsEntry (ArrayList<String> bfast, ArrayList<String> lnch,
 					   ArrayList<String> dnr, ArrayList<String> sn1, 
 					   ArrayList<String> sn2) {
@@ -39,6 +61,11 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		++nextEntryDay;
 	}
 	
+	/**
+	 * 
+	 * @param meal
+	 * @param food
+	 */
 	public void addFoodToMeal (Meals meal, String food) {
 		switch (meal) {
 			case Breakfast:
@@ -61,6 +88,11 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param meal
+	 * @return
+	 */
 	public ArrayList<String> getMeal (Meals meal) {
 		switch (meal) {
 			case Breakfast:
@@ -78,6 +110,11 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param meal
+	 * @return
+	 */
 	public int getMealCount (Meals meal) {
 		switch (meal) {
 			case Breakfast:
@@ -95,6 +132,12 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		}
 	}
 	
+	/**
+	 * 
+	 * @param meal
+	 * @param index
+	 * @return
+	 */
 	public String getFoodFromMeal (Meals meal, int index) {
 		switch (meal) {
 		case Breakfast:
@@ -112,15 +155,28 @@ public class MealsEntry implements Comparable<MealsEntry> {
 		}
 	}
 	
+	/**
+	 * 
+	 * @return
+	 */
 	public int getDay () {
 		return entryDay;
 	}
 
+	/**
+	 * 
+	 */
 	@Override
 	public int compareTo(MealsEntry another) {
 		return this.entryDay - another.entryDay;
 	}
 	
+	/**
+	 * 
+	 * @param meal
+	 * @param index
+	 * @param food
+	 */
 	public void setFoodInMeal (Meals meal, int index, String food) {
 		
 		if (index >= getMealCount(meal)) {

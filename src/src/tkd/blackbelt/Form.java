@@ -12,7 +12,7 @@ import java.util.Iterator;
 public class Form {
 	
 	private ArrayList<FormStep> form_list;
-	private Form form = null;
+	private static Form form = null;
 	
 	/**
 	 * 
@@ -25,7 +25,7 @@ public class Form {
 	 * 
 	 * @return
 	 */
-	public Form getForm () {
+	public static Form getForm () {
 		if (form == null) {
 			form = new Form ();
 		}

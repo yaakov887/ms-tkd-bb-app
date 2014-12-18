@@ -140,6 +140,7 @@ public class ChecklistXMLHandler {
 			serializer.startTag(null, item.toString().toLowerCase());
 			serializer.attribute(null, ATTR_NAME, Boolean.toString(entry));
 			serializer.endTag(null, item.toString().toLowerCase());
+			serializer.text("\n");
 		}
 	}
 	

@@ -87,6 +87,17 @@ public class FormStep implements Comparable<FormStep>{
 	}
 	
 	/**
+	 * Constructor
+	 */
+	public FormStep () {
+		number			=	0;
+		direction 		= 	Direction.IN_PLACE;
+		stance 			= 	null;
+		foot_technique	=	null;
+		hand_technique	=	null;
+	}
+	
+	/**
 	 * 
 	 * @param num
 	 * @param dir

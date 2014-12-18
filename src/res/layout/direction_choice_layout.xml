@@ -13,23 +13,30 @@
 
         <ImageButton
             android:id="@+id/up_left"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:rotation="-45"
-            android:src="@drawable/ic_up" />
+            android:rotation="45"
+            android:src="@drawable/ic_left"
+            android:contentDescription="Upper Left Direction" />
         
         <ImageButton 
             android:id="@+id/up" 
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content" 
             android:layout_height="wrap_content" 
-            android:src="@drawable/ic_up" />
+            android:rotation="90"
+            android:src="@drawable/ic_left" 
+            android:contentDescription="Up Direction"/>
         
         <ImageButton
         	android:id="@+id/up_right"
+        	style="?android:attr/borderlessButtonStyle"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:rotation="45"
-        	android:src="@drawable/ic_up" />
+        	android:rotation="-45"
+        	android:src="@drawable/ic_right" 
+        	android:contentDescription="Upper Right Direction"/>
 
     </LinearLayout>
 
@@ -40,21 +47,27 @@
         
     	<ImageButton
         	android:id="@+id/left"
+        	style="?android:attr/borderlessButtonStyle"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:src="@drawable/ic_left" />
+        	android:src="@drawable/ic_left" 
+        	android:contentDescription="Left Direction"/>
 
     	<ImageButton
     	    android:id="@+id/stop"
+    	    style="?android:attr/borderlessButtonStyle"
     	    android:layout_width="wrap_content"
     	    android:layout_height="wrap_content"
-    	    android:src="@drawable/ic_menu_stop" />
+    	    android:src="@drawable/ic_process_stop" 
+    	    android:contentDescription="Remain In Place"/>
     	
     	<ImageButton
         	android:id="@+id/right"
+        	style="?android:attr/borderlessButtonStyle"
         	android:layout_width="wrap_content"
         	android:layout_height="wrap_content"
-        	android:src="@drawable/ic_right" />
+        	android:src="@drawable/ic_right" 
+        	android:contentDescription="Right Direction"/>
     	
     </LinearLayout>
 
@@ -65,23 +78,30 @@
 
         <ImageButton
             android:id="@+id/imageButton1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:rotation="45"
-            android:src="@drawable/ic_down" />
-
-        <ImageButton
-            android:id="@+id/imageButton2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_down" />
-
-        <ImageButton
-            android:id="@+id/imageButton3"
+            style="?android:attr/borderlessButtonStyle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:rotation="-45"
-            android:src="@drawable/ic_down" />
+            android:src="@drawable/ic_left" 
+            android:contentDescription="Lower Left Direction"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="90"
+            android:src="@drawable/ic_right" 
+            android:contentDescription="Down Direction"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rotation="45"
+            android:src="@drawable/ic_right" 
+            android:contentDescription="Lower Right Direction"/>
 
     </LinearLayout>
 

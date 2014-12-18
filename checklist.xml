@@ -5,10 +5,10 @@
 	<essay_one			complete="false"/>
 	<essay_two			complete="false"/>
 	<test_fees			complete="false"/>
-	<fasting			complete="false"/>
-	<healthy_habits		complete="false"/>
-	<perseverance		complete="false"/>
-	<thank_you			complete="false"/>
-	<respect			complete="false"/>
-	<righting_wrongs	complete="false"/>
+	<fasting			complete="true"/>
+	<healthy_habits		complete="true"/>
+	<perseverance		complete="true"/>
+	<thank_you			complete="true"/>
+	<respect			complete="true"/>
+	<righting_wrongs	complete="true"/>
 </checklist>

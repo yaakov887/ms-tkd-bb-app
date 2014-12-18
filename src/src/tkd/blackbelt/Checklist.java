@@ -1,10 +1,13 @@
 package tkd.blackbelt;
 
+import android.annotation.SuppressLint;
+
 /**
  * 
  * @author jacoberg2
  *
  */
+@SuppressLint("DefaultLocale")
 public class Checklist {
 	
 	/**
@@ -27,6 +30,21 @@ public class Checklist {
 		RIGHTING_WRONGS;
 		
 		public static final int size = 12;
+		public boolean Is_Testing_Item () {
+			if (this != null)
+			{
+				return this.ordinal () <= TEST_FEES.ordinal ();
+			}
+			return false;
+		}
+		
+		public boolean Is_Writing_Item () {
+			if (this != null)
+			{
+				return this.ordinal () >= FASTING.ordinal ();
+			}
+			return false;
+		}
 	};
 		
 	private boolean[] completed;
@@ -65,6 +83,7 @@ public class Checklist {
 	 * 
 	 * @param str
 	 */
+	@SuppressLint("DefaultLocale")
 	public void itemCompleted (String str) {
 		completed[Items.valueOf(str.toUpperCase()).ordinal()] = true;
 	}
@@ -81,6 +100,7 @@ public class Checklist {
 	 * 
 	 * @param str
 	 */
+	@SuppressLint("DefaultLocale")
 	public void resetItem (String str) {
 		completed[Items.valueOf(str.toUpperCase()).ordinal()] = false;
 	}
@@ -99,6 +119,7 @@ public class Checklist {
 	 * @param str
 	 * @return
 	 */
+	@SuppressLint("DefaultLocale")
 	public boolean isCompleted (String str) {
 		return completed[Items.valueOf(str.toUpperCase()).ordinal()];
 	}

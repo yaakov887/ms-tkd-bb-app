@@ -1,7 +1,6 @@
 package tkd.blackbelt;
 
 import tkd.blackbelt.track.R;
-import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -102,25 +101,6 @@ public class FitnessFragment extends Fragment {
     public void onCreate(Bundle savedInstanceState) 
     {
         super.onCreate(savedInstanceState);
-               
-        setContentView(R.layout.physicalrequirements);
-        
-        for(int i = R.id.push_up_add; i <= R.id.class_add; i++)
-        {
-        	View v = this.findViewById(i);
-    	
-        	v.setClickable(true);
-        	v.setOnClickListener(addSelect);
-        }
-        
-        for(int i = R.id.push_ups; i <= R.id.classes; i++)
-        {
-        	View v = this.findViewById(i);
-    	
-        	v.setClickable(true);
-        	v.setOnClickListener(listSelect);
-        }
-        
     }
     
     @Override

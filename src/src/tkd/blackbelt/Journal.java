@@ -81,4 +81,12 @@ public class Journal {
 			}
 		}
 	}
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public int numberOfEntries () {
+		return entries.size ();
+	}
 }
