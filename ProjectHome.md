@@ -1,0 +1,1 @@
+My Master's Degree Independent Study and Master's Project is a mobile Tae Kwon Do Black Belt progress tracking application. The goal of this project is to create a mobile application that makes use of Google's API in order to communicate between devices and between a student and their mentor without the need for a central server.
